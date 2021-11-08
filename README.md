@@ -32,13 +32,20 @@ For Customer's Order List: **`localhost:yourport/api/Order/GetOrders/{customerId
 
 For Order Details: **`localhost:yourport/api/OrderDetail/GetOrderDetails/{orderId}`**
 
-
 Here are jwt token settings;
 
-  "JwtToken": {
-    "SecretKey": "thisisasecretkeyanddontsharewithanyone",
-    "Issuer": "your issue address"
-  },
+
+    "JwtToken":  
+
+      {
+
+        "SecretKey": "thisisasecretkeyanddontsharewithanyone", 
+
+        "Issuer": "your issue address"
+
+        
+      }
+  
   
 Serilog Settings: BookStore.Api -> appsettings.json
 
@@ -81,6 +88,6 @@ Here are Serilog settings;
     "Properties": {
       "Environment": "LocalDev"
     }
-  }
   
+ 
 Fehmi Kucukcinar
